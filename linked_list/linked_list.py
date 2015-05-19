@@ -1,4 +1,11 @@
 class Link:
+    """
+    typedef     s_list
+    {
+        void    *value;
+        s_list  *next;
+    }           t_list;
+    """
     def __init__(self, elt):
         self.value = elt
         self.next = None
