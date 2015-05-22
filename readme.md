@@ -15,3 +15,7 @@ Browse to tests folder to get how it works (**python 2.7** language).
 Demonstrate how use a generator with fibonacci suite.
 
 Browse to tests folder to get how it works.
+
+## Design Pattern
+
+* Singleton
