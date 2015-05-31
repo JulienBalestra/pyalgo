@@ -1,6 +1,4 @@
-# Python Algorithm
-
-[![Build Status](https://travis-ci.org/jbalestra/pyalgo.svg?branch=master)](https://travis-ci.org/jbalestra/pyalgo)
+# Python Algorithm [![Build Status](https://travis-ci.org/JulienBalestra/pyalgo.svg?branch=master)](https://travis-ci.org/jbalestra/pyalgo)
  
 ## Linked List
 
