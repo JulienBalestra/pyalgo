@@ -1,7 +1,12 @@
 # Python Algorithm
 
+
 [![Build Status](https://travis-ci.org/jbalestra/pyalgo.svg?branch=master)](https://travis-ci.org/jbalestra/pyalgo)
  
+[ ![Codeship Status for Computor](https://codeship.com/projects/c94b2e70-fb2b-0132-18ba-42f2298d05aa/status?branch=master)](https://codeship.com/projects/87095)
+
+
+
 ## Linked List
 
 Used Python instead of the traditional **C** language to learn the concept of a Linked List.
