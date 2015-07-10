@@ -24,3 +24,6 @@ Browse to tests folder to get how it works.
 
 * Singleton
 
+## Decorator
+
+* timer
