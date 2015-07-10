@@ -1,4 +1,8 @@
-# Python Algorithm [![Build Status](https://travis-ci.org/JulienBalestra/pyalgo.svg?branch=master)](https://travis-ci.org/jbalestra/pyalgo)
+# Python Algorithm 
+
+[![Build Status](https://travis-ci.org/JulienBalestra/pyalgo.svg?branch=master)](https://travis-ci.org/jbalestra/pyalgo)
+
+[ ![Codeship Status for Computor](https://codeship.com/projects/c1408d60-fbd8-0132-3ee1-0a05be076c47/status?branch=master)](https://codeship.com/projects/87295)
  
 ## Linked List
 
@@ -19,3 +23,4 @@ Browse to tests folder to get how it works.
 ## Design Pattern
 
 * Singleton
+
