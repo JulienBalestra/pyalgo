@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from design_pattern.singleton import Singleton
+from design_pattern.singleton import DecoSingleton as Singleton
 
 
 @Singleton
