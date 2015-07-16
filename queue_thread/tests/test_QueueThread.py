@@ -33,12 +33,12 @@ class TestQueueThread(unittest.TestCase):
 	def test_01(self):
 		self.t1.start()
 		self.assertTrue(self.t1.isAlive())
+		self.t1.kill = True
 		self.t2.start()
 		self.assertTrue(self.t2.isAlive())
 		self.assertNotEqual([], BUFFER)
 
 	def test_02(self):
-		self.t1.kill = True
 		sleep(0.5)
 		self.assertFalse(self.t1.isAlive())
 		self.assertTrue(self.t2.isAlive())
@@ -46,6 +46,8 @@ class TestQueueThread(unittest.TestCase):
 
 	def test_03(self):
 		self.t1.q.join()
+		self.assertFalse(self.t1.isAlive())
+		self.assertFalse(self.t2.isAlive())
 		self.assertEqual(
 			['0 t1', '0 t2', 'K t1', '1 t2', '2 t2', '3 t2', '4 t2'],
 			BUFFER)
