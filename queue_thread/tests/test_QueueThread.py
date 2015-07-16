@@ -45,6 +45,9 @@ class TestQueueThread(unittest.TestCase):
 
 	def test_03(self):
 		self.t1.q.join()
+		
+	def test_04(self):
+		sleep(0.5)
 		self.assertFalse(self.t1.isAlive())
 		self.assertFalse(self.t2.isAlive())
 		self.assertEqual(
