@@ -16,9 +16,7 @@ Browse to tests folder to get how it works (**python 2.7** language).
 
 ## Generator
 
-Demonstrate how use a generator with fibonacci suite.
-
-Browse to tests folder to get how it works.
+* Fibonacci
 
 ## Design Pattern
 
@@ -26,4 +24,12 @@ Browse to tests folder to get how it works.
 
 ## Decorator
 
-* timer
+* Timer
+
+## Property decorator
+
+* Classroom with setter and deleter
+
+## Queue n Threading
+
+* Worker with closure
